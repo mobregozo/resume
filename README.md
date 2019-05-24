@@ -1,4 +1,8 @@
-# AngularResumeApp
+# Angular Resume App
+
+My name is Manuel Obregozo
+
+Here is the Code of my portfolio/resume in Simple Web Application that I did using Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 

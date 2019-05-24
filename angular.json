@@ -29,6 +29,9 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["node_modules", "node_modules/@material/*"]
+            },
             "scripts": []
           },
           "configurations": {
