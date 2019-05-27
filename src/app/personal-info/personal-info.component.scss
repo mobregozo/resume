@@ -1,0 +1,32 @@
+.profile-picture-cover{
+  width: 100%;
+  position:relative;
+  .profile-picture{
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 5px 1px rgba(128,128,128,.13);
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      transition: 1s;
+      &:hover{
+        filter: none;
+      }
+    }
+    .image-cover{
+      display: none;
+    }
+    &:hover{
+      .image-cover{
+        display: block;
+        top: 4%;
+        width: 100%;
+        position: absolute;
+        z-index: 3000;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 700;
+      }
+    }
+}

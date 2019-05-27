@@ -1,0 +1,18 @@
+.text{
+    grid-column-end: none;
+    grid-column-start: 2;
+}
+.info-icon{
+    fill:grey;
+    width: 50px;
+    &:hover{
+        fill:black;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .text{
+        grid-column-end: 1;
+        grid-column-start: 1;
+    }
+}
