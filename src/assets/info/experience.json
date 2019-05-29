@@ -4,8 +4,8 @@
       "companyName" : "gA - Grupo Assa",
       "link": "http://www.grupoassa.com/",
       "logo": "ga_logo.png",
-      "from": "12/12/20012",
-      "to":"12/12/20012",
+      "from": "11/01/2011",
+      "to":"11/01/2012",
       "title": "Technical Assistant",
       "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
     },
@@ -13,8 +13,8 @@
       "companyName" : "Spark Digital",
       "link": "https://www.sparkdigital.com",
       "logo": "sparkdigital_logo.png",
-      "from": "12/12/20012",
-      "to":"12/12/20012",
+      "from": "05/01/2013",
+      "to":"12/31/2015",
       "title": "Javascript Developer",
       "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
     },
@@ -22,8 +22,8 @@
       "companyName" : "Norsync SRL",
       "link": "http://norsync.com/",
       "logo": "norsync_logo.png",
-      "from": "12/12/20012",
-      "to":"12/12/20012",
+      "from": "01/01/2016",
+      "to":"05/31/2017",
       "title": "Javascript Developer",
       "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
     },
@@ -31,17 +31,17 @@
       "companyName" : "Mobiquity",
       "link": "https://www.mobiquityinc.com/",
       "logo": "mobiquity_logo.png",
-      "from": "12/12/20012",
-      "to":"12/12/20012",
+      "from": "06/06/2017",
+      "to":"01/31/2018",
       "title": "Javascript Developer",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure!"
     },
     {
       "companyName" : "Frontmen",
       "link": "https://www.frontmen.nl/",
       "logo": "frontmen_logo.svg",
-      "from": "12/12/20012",
-      "to":"12/12/20012",
+      "from": "02/01/2017",
+      "to": null,
       "title": "Javascript Developer",
       "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
     }
