@@ -1,19 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { JsonInfoService } from './../../json-info.service';
 
 @Component({
     selector: 'app-experience',
-    templateUrl: './experience.component.html',
-    styleUrls: ['./experience.component.scss'],
+    templateUrl: './experience.component.html'
 })
-export class ExperienceComponent implements OnInit {
-    constructor(private appSettingsService: JsonInfoService) {}
+export class ExperienceComponent implements OnInit{
+  constructor() { }
 
-    public experiences: any = [];
-
-    ngOnInit() {
-        this.appSettingsService.getJSON().subscribe(data => {
-            this.experiences = data.jobs;
-        });
-    }
+  ngOnInit() {
+  }
 }

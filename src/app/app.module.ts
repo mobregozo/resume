@@ -11,15 +11,15 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SpotifywidgetComponent } from './spotifywidget/spotifywidget.component';
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { HeaderComponent } from './header/header.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { AboutComponent } from './tabs/about/about.component';
-import { ExperienceComponent } from './tabs/experience/experience.component';
 import { PhotosComponent } from './tabs/photos/photos.component';
 
-import {JsonInfoService} from './json-info.service';
+import { JsonInfoService } from './json-info.service';
 import { PersonalComponent } from './tabs/personal/personal.component';
+import { ExperienceModule } from './experience/experience.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,6 @@ import { PersonalComponent } from './tabs/personal/personal.component';
     SpotifywidgetComponent,
     HeaderComponent,
     AboutComponent,
-    ExperienceComponent,
     PhotosComponent
   ],
   imports: [
@@ -43,6 +42,7 @@ import { PersonalComponent } from './tabs/personal/personal.component';
     MatGridListModule,
     MatTabsModule,
     BrowserModule,
+    ExperienceModule
   ],
   providers: [
     JsonInfoService

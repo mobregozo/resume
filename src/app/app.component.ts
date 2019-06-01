@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
       },
       {
         label: 'Experience',
-        path: './experience',
+        path: '/experience/list',
         index: 1
       },
       {

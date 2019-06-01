@@ -1,0 +1,14 @@
+<div class="cards-experience">
+  <mat-card class="cards-experience_card" *ngFor="let job of experiences" routerLink="/experience/list/{{job.id}}">
+      <mat-card-header>
+        <mat-card-title>{{job.companyName}}</mat-card-title>
+        <mat-card-subtitle>{{job.from | date:'MMM yyyy'}} - {{job.to | date:'MMM yyyy'}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image class="header-image" [src]="'../../../assets/img/'+job.logo" alt="{{job.companyName}}">
+      <mat-card-content>
+        <p>
+          {{job.description}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+</div>
