@@ -1,4 +1,8 @@
-<p *ngIf=detail>
-  {{detail.companyName}}
-  <img [src]="'../../../assets/img/'+detail.logo"/>
-</p>
+<mat-card *ngIf="detail" class="experience-card">
+    <mat-card-header>
+        <img mat-card-avatar class="experience-card-image" [src]="'../../../assets/img/' + detail.logo" />
+        <mat-card-title> {{ detail.companyName }}</mat-card-title>
+        <mat-card-subtitle> {{ detail.from }} - {{ detail.to }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content> {{ detail.description }} </mat-card-content>
+</mat-card>

@@ -1,0 +1,9 @@
+.experience-card{
+  max-width: 400px;
+  margin-top:25px;
+  .experience-card-image {
+    object-fit: contain;
+    background-color: #d3d3d391;
+    padding:5px;
+  }
+}
