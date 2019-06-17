@@ -1,9 +1,16 @@
 .experience-card{
-  max-width: 400px;
   margin-top:25px;
-  .experience-card-image {
+  .experience-card__image {
     object-fit: contain;
     background-color: #d3d3d391;
     padding:5px;
+  }
+  div{
+    white-space: pre-line;
+    border-bottom: solid 1px lightblue;
+    &:last-child{
+      padding-top:15px;
+      border: none;
+    }
   }
 }

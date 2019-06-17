@@ -1,18 +1,29 @@
-.text{
-    grid-column-end: none;
-    grid-column-start: 2;
-}
-.info-icon{
-    fill:grey;
-    width: 50px;
-    &:hover{
-        fill:black;
-    }
+
+
+.cards-about{
+  padding: 0 25px;
+  border-radius: 10px 0 0 10px;
+  color: #5a5a5a;
+  grid-column-end: none;
+  grid-column-start: 2;
+
+  .icons-box{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    .info-icon{
+      fill:grey;
+      width: 50px;
+      &:hover{
+          fill:black;
+      }
+  }
+  }
 }
 
 @media only screen and (max-width: 735px) {
-    .text{
-        grid-column-end: 1;
-        grid-column-start: 1;
+    .cards-about{
+      grid-column-end: 1;
+      grid-column-start: 1;
     }
 }

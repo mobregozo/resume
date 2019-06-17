@@ -9,6 +9,7 @@ const routes: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'photos', component: PhotosComponent },
     { path: 'personal', component: PersonalComponent },
+    { path: '',   redirectTo: 'about', pathMatch: 'full' },
 ];
 @NgModule({
     imports: [

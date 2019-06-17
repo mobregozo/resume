@@ -8,7 +8,7 @@
       "from": "11/01/2011",
       "to":"11/01/2012",
       "title": "Technical Assistant",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
+      "projects" : ["Worked as a JD Edward’s developer, the manin technologies that I used were JDEdwards, C++ and Oracle SQL.  \n\n The main goal of my role within the company was: \"Business process optimization\" by using the Enterprise Resource Planning (ERP, JD Edwards) in order to improve our client’s business activities such as sales, deliveries, payments, production, inventory administration and administration quality. \n\n We used agile methodologies and when doing support we relied on an issue tracker that also helped to distributing tasks to other team members."]
     },
     {
       "id":"spark",
@@ -18,7 +18,9 @@
       "from": "05/01/2013",
       "to":"12/31/2015",
       "title": "Javascript Developer",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
+      "projects" : ["Worked as an Apigee Developer. \n\n Where my main role was to design and development of RESTful APIs into Apigee Platform to expose automatic digital supply chain services to increase platform’s integration capabilities with third party applications.\n\n Focused on application issue diagnostics and resolution, manage deployments, policy / API updates enhancements and customer service orientation. \n\n Researching, designing, implementing, and testing software end to end using Java, Python,Json JavaScript, RESTful, Jmeter, SoapUI and XML. \n\n Gained experience in integration strategies, management, team building, and leadership. Direct contact with many stakeholders from several backgrounds, and their clients",
+      "Developed a SPA (single page application) a private on-line social media , which mission is to help people grow by being there for each other. \n\n I was in charge of the front-end development. \n\n My main responsibilities included developing, testing and designing new features of the application and their time estimation, impact and scope. Most of them related to the UI of the app. \n\n Main technologies used were: RESTful APIs, Heroku, Angular.js, JavaScript, JQuery, HTML5, protractor, jasmine, SASS, CSS, Bootstrap, Grunt and Git."]
+
     },
     {
       "id":"norsync",
@@ -46,6 +48,16 @@
       "link": "https://www.frontmen.nl/",
       "logo": "frontmen_logo.svg",
       "from": "02/01/2017",
+      "to": null,
+      "title": "Javascript Developer",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
+    },
+    {
+      "id":"sideprojects",
+      "companyName" : "Side Rpojects",
+      "link": "",
+      "logo": "",
+      "from": "01/01/2015",
       "to": null,
       "title": "Javascript Developer",
       "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at culpa vel ab dolores quasi saepe vero accusamus iure obcaecati, repudiandae qui sunt fugit impedit et laudantium nesciunt id autem!"
