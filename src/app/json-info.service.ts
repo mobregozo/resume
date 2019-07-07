@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,6 @@ export class JsonInfoService {
   }
 
   public getJSON(): Observable<any> {
-    return this.http.get('./assets/info/experience.json');
+    return this.http.get(`${environment.apiEndpoint}/jobs.json`);
   }
 }

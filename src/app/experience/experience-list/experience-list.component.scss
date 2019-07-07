@@ -9,11 +9,16 @@
       transform: scale(1.1);
       cursor:pointer;
     }
-    .header-image{
-      width: calc(100% + 6px);
-      margin: 0 0px 15px 0px;
-      height: 120px;
-      object-fit: contain;
-    }
   }
+  .top{
+    background: #cedc3926;
+    margin: -16px -16px 2px -16px;
+    padding: 8px;
+  }
+}
+
+.with-border{
+  border: solid #cedc39 6px;
+  border-width: 0 0 4px 0;
+  padding-bottom: 7px;
 }

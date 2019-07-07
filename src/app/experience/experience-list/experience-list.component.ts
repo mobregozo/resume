@@ -14,7 +14,7 @@ export class ExperienceListComponent implements OnInit {
 
   ngOnInit() {
       this.appSettingsService.getJSON().subscribe(data => {
-          this.experiences = data.jobs;
+          this.experiences = data;
       });
   }
 

@@ -18,7 +18,7 @@ export class ExperienceDetailComponent implements OnInit {
        const id = params['id']; // (+) converts string 'id' to a number
 
        this.appSettingsService.getJSON().subscribe(data => {
-        this.detail = data.jobs.filter((experience) => {
+        this.detail = data.filter((experience) => {
           return experience.id === id;
         })[0];
     });
