@@ -3,7 +3,13 @@
         I have worked for different companies as a full-time developers but I
         also did some personal side-projects showed below.
     </h2>
+    <p>
+        I started to work as a backend developer, but because I wanted to be
+        more close to the UX/UI of the technolofies I use I switched to front
+        end development, area in which I have worked since 2013/2014.
+    </p>
 </div>
+
 
 <h3 class="with-border">Companies and Clients that I worked for</h3>
 
@@ -17,13 +23,12 @@
         <mat-card-header class="top">
             <mat-card-title>{{ job.companyName }}</mat-card-title>
         </mat-card-header>
-        <mat-card-header>
-            <mat-card-title>{{ job.role }}</mat-card-title>
             <mat-card-subtitle
                 >{{ job.from | date: 'MMM yyyy' }} -
-                {{ job.to | date: 'MMM yyyy' }}</mat-card-subtitle
-            >
-        </mat-card-header>
+                {{ job.to | date: 'MMM yyyy' }}</mat-card-subtitle>
+        <mat-card-content>{{ job.role }}</mat-card-content>
+
+        <mat-card-footer></mat-card-footer>
     </mat-card>
 </div>
 

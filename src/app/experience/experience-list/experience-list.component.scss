@@ -12,13 +12,14 @@
   }
   .top{
     background: #cedc3926;
-    margin: -16px -16px 2px -16px;
-    padding: 8px;
+    margin: -16px -16px 15px -16px;
+    padding-top: 10px;
+    color:grey;
   }
 }
 
 .with-border{
   border: solid #cedc39 6px;
-  border-width: 0 0 4px 0;
+  border-width: 0 0 8px 0;
   padding-bottom: 7px;
 }
